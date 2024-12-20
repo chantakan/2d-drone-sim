@@ -1,0 +1,20 @@
+{
+    "name": "Test environment of parser md to json",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "formulahendry.auto-rename-tag",
+                "dsznajder.es7-react-js-snippets",
+                "ms-vscode.vscode-typescript-next"
+            ]
+        }
+    },
+    "forwardPorts": [5173],
+    "postCreateCommand": "npm install",
+    "remoteUser": "node"
+}
