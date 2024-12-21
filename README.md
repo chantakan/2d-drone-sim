@@ -1,4 +1,4 @@
-# Markdown to JSON Converter
+# 2D Drone Sim
 
 This application converts Markdown text to a structured JSON format. The converter supports various Markdown elements and offers formatting options.
 
