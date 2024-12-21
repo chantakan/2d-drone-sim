@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import DroneSimulator from "~/components/DorneSim/DorneSim";
+import CartPoleSimulator from "~/components/CartPole/CartPole";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -10,7 +10,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-  <div className="flex justify-center h-screen">
-    <DroneSimulator />
+  <div className="flex justify-center">
+    <CartPoleSimulator />
   </div>);
 }
